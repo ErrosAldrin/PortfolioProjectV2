@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/actual2.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	 	<!-- Font Awesome Icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Materialize Icons-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Aos-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<title>E.A G</title>
+
+	<style>
+		.parallax1
+		{
+		  position: relative;
+		  top: 0;
+		  left: 0;
+		}
+		.parallax2
+		{
+		  position: absolute;
+		  top: 0px;
+		  left: 0px;
+		}
+	  </style>
+
+
+</head>
+<body class="black">
+
+	<ul class="topnav navbar-fixed">
+        <li id="direct-link">
+            <a href=""><i class="icon"></i></a>
+        </li>
+		<li id="nav-home">
+            <a href="#home" class="active">Home</a>
+        </li>
+		<li id="nav-forum">
+            <a href="#forum">Forum</a>
+        </li>
+		<li id="nav-media">
+            <a href="#media">Media</a>
+        </li>
+	</ul>
+    <br>
+	 <div id="page"></div>
+	  	<div class="keyart parallax" id="parallax1"><img src="parallax0.png" alt="" class="parallax1">
+			<img src="firewatch.png" alt="" class="parallax2"></div>
+			
+	<br>
+
+	<div></div>
+
+	 <!-- Jquery stuff -->
+	 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+		<!--Parallax Jquery-->
+	 <script>
+		   $(document).ready(function(){
+    $('.parallax').parallax();
+  		});
+	 </script>
+	 <!-- Compiled and minified JavaScript -->
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	 <script>
+		 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+	function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+	 </script>
+	 
+	 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	 <script>
+		AOS.init();
+	  </script>
+</body>
+</html>
