@@ -1,0 +1,37 @@
+
+.code {
+    opacity: 100%;
+    width: 40%;
+    clear: both;
+    height: 250px;
+    background: #000000;
+    border-radius: 2px;
+    margin: 12vh 0;
+    padding: 10px;
+}
+  .code-right {
+      float: right;
+  }
+
+  .flow-text{
+
+    
+    font-size: 20px;
+}
+  
+.aboutme .row a{
+    display: inline-block;
+    background: #395BA9;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #395BA9;
+    transition: all 0.3s ease;
+}
+.aboutme .row a:hover{
+    color: #395BA9;
+    background: none;
+}
